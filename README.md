@@ -1,19 +1,19 @@
-## potok-cash-newbie-flow-24h-automation
-potok-cash-newbie-flow-24h-automation
+## potok-fund-newbie-flow-24h-automation
+potok-fund-newbie-flow-24h-automation
 
 Automation for pressing bonus button each 24 hours.
 
-https://potok.cash/cabinet (or my ref link: https://potok.cash/ref/LM-lwbqq/cabinet)
+https://potok.fund/cabinet (or my ref link: https://potok.fund/ref/LM-lwbqq/cabinet)
 
 **Algorithm details:** This script knows the time when the timer will be over, and when the bonus button will be available for pressing. This script has a random delay 1.0 to 2.0 minutes before bonus request. And it reloads page after each bonus request. There are no exceptions for sundays, because at sundays the timer is over and the bonus button is available for pressing (At sundays, bonus button will be pressed each 1.0 to 2.0 minutes). When the timer is not over, this script is waiting until the timer is over.
 
 ---
 
-- **Install** [this file](potok-cash-newbie-flow-24h-automation.user.js) ("potok-cash-newbie-flow-24h-automation.user.js") in your [Tampermonkey](http://tampermonkey.net) extension for your web-browser. (With Tampermonkey installed, often just clicking on [**this link**](https://github.com/valpolik/potok-cash-newbie-flow-24h-automation/raw/refs/heads/main/potok-cash-newbie-flow-24h-automation.user.js) is enough for install).
+- **Install** [this file](potok-fund-newbie-flow-24h-automation.user.js) ("potok-fund-newbie-flow-24h-automation.user.js") in your [Tampermonkey](http://tampermonkey.net) extension for your web-browser. (With Tampermonkey installed, often just clicking on [**this link**](https://github.com/valpolik/potok-fund-newbie-flow-24h-automation/raw/refs/heads/main/potok-fund-newbie-flow-24h-automation.user.js) is enough for install).
 
-- Keep your window and tab with potok cash newbie flow always active and opened 24/7. (Or add website into awake list in your web-browser settings like "Always keep these sites active").
+- Keep your window and tab with potok fund newbie flow always active and opened 24/7. (Or add website into awake list in your web-browser settings like "Always keep these sites active").
 
-- Sometimes, check for updates on **this** page (https://github.com/valpolik/potok-cash-newbie-flow-24h-automation).
+- Sometimes, check for updates on **this** page (https://github.com/valpolik/potok-fund-newbie-flow-24h-automation).
 
 ---
 
@@ -46,16 +46,16 @@ https://github.com/valpolik
 Ask for help:
 https://t.me/valpolik
 
-![](https://komarev.com/ghpvc/?username=potok-cash-newbie-flow-24h-automation&label=Repo+views)
+![](https://komarev.com/ghpvc/?username=potok-fund-newbie-flow-24h-automation&label=Repo+views)
 
 
 
 
 ## Related user-scripts
 
-https://github.com/valpolik/potok-cash-growing-flow-24h-automation
+https://github.com/valpolik/potok-fund-growing-flow-24h-automation
 
-https://github.com/valpolik/potok-cash-newbie-flow-24h-automation
+https://github.com/valpolik/potok-fund-newbie-flow-24h-automation
 
 ---
 
