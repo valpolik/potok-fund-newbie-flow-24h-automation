@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name         Potok Cash Bonus Keeper [newbie]
-// @namespace    https://potok.cash/cabinet
+// @name         Potok Fund Bonus Keeper [newbie]
+// @namespace    https://potok.fund/cabinet
 // @version      20260609082659
 // @description  Automation for pressing bonus button each 24 hours
-// @author       https://github.com/valpolik/potok-cash-newbie-flow-24h-automation
-// @match        https://potok.cash/cabinet
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=potok.cash
+// @author       https://github.com/valpolik/potok-fund-newbie-flow-24h-automation
+// @match        https://potok.fund/cabinet
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=potok.fund
 // @grant        none
 // ==/UserScript==
 
@@ -38,7 +38,7 @@
     }
 
     async function fetchBonusData(uid) {
-        const response = await fetch("https://potok.cash/member/getmemberdeposits", {
+        const response = await fetch("https://potok.fund/member/getmemberdeposits", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify({ uid: uid, currency: CURRENCY, program: PROGRAM, active: 1 }),
@@ -56,7 +56,7 @@
     }
 
     async function sendBonusRequest() {
-        const response = await fetch("https://potok.cash/site/SetUserDepositBonus", {
+        const response = await fetch("https://potok.fund/site/SetUserDepositBonus", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify({ program: PROGRAM }),   // ← динамическая подстановка
